@@ -35,6 +35,27 @@ CMakeFiles/Pong_test.dir/gameobject.cpp.o
  /home/akulia/Pong/racket.h
  /home/akulia/Pong/texture_manager.h
 CMakeFiles/Pong_test.dir/gameobject_test.cpp.o
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest-death-test.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest-matchers.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest-message.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest-param-test.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest-printers.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest-test-part.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest-typed-test.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest_pred_impl.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/gtest_prod.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/custom/gtest-port.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/custom/gtest-printers.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-death-test-internal.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-filepath.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-internal.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-param-util.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-port-arch.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-port.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-string.h
+ /home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include/gtest/internal/gtest-type-util.h
+ /home/akulia/Pong/gameobject.h
  /home/akulia/Pong/gameobject_test.cpp
 CMakeFiles/Pong_test.dir/gameobjectfactory.cpp.o
  /home/akulia/Pong/ball.h

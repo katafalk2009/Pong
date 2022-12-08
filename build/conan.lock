@@ -12,7 +12,7 @@
    "1": {
     "ref": "gtest/1.10.0",
     "options": "build_gmock=True\nfPIC=True\nhide_symbols=False\nno_main=False\nshared=False",
-    "package_id": "71c983c52942eb4756e4bd60e4cbec9fd7557e5d",
+    "package_id": "7320405f83ec32d8556b524cdda87ee295bb7b84",
     "prev": "0",
     "modified": true,
     "context": "host"
@@ -21,5 +21,5 @@
   "revisions_enabled": false
  },
  "version": "0.4",
- "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
 }

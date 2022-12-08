@@ -22,7 +22,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL2"
   "../Pong"
-  "/home/akulia/.conan/data/gtest/1.10.0/_/_/package/71c983c52942eb4756e4bd60e4cbec9fd7557e5d/include"
+  "/home/akulia/.conan/data/gtest/1.10.0/_/_/package/7320405f83ec32d8556b524cdda87ee295bb7b84/include"
   "../"
   )
 
