@@ -1,6 +1,5 @@
 #include "game.h"
 #include "texture_manager.h"
-#include <iostream>
 
 Game::Game() {
     SDL_Init(0);
@@ -29,11 +28,13 @@ void Game::loop() {
     render();
     input();
     update(entities);
-    frameTime = SDL_GetTicks() - frameStart;
-    if (frameTime < frameDelay) {
-    SDL_Delay(frameDelay - frameTime);
-    frameStart = SDL_GetTicks();
-    }
+    SDL_Delay(1000/60);
+    // TODO: refactor fps delay
+    // frameTime = SDL_GetTicks() - frameStart;
+    // if (frameTime < frameDelay) {
+    // SDL_Delay(frameDelay - frameTime);
+    // frameStart = SDL_GetTicks();
+    // }
     }
 }
 void Game::render() {

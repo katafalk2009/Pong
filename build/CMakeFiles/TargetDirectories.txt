@@ -1,0 +1,4 @@
+/home/akulia/Pong/build/CMakeFiles/rebuild_cache.dir
+/home/akulia/Pong/build/CMakeFiles/edit_cache.dir
+/home/akulia/Pong/build/CMakeFiles/Pong_test.dir
+/home/akulia/Pong/build/CMakeFiles/Pong.dir
