@@ -226,6 +226,36 @@ game.cpp.s:
 	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/game.cpp.s
 .PHONY : game.cpp.s
 
+gamecount.o: gamecount.cpp.o
+
+.PHONY : gamecount.o
+
+# target to build an object file
+gamecount.cpp.o:
+	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/gamecount.cpp.o
+	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/gamecount.cpp.o
+.PHONY : gamecount.cpp.o
+
+gamecount.i: gamecount.cpp.i
+
+.PHONY : gamecount.i
+
+# target to preprocess a source file
+gamecount.cpp.i:
+	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/gamecount.cpp.i
+	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/gamecount.cpp.i
+.PHONY : gamecount.cpp.i
+
+gamecount.s: gamecount.cpp.s
+
+.PHONY : gamecount.s
+
+# target to generate assembly for a file
+gamecount.cpp.s:
+	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/gamecount.cpp.s
+	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/gamecount.cpp.s
+.PHONY : gamecount.cpp.s
+
 gameobject.o: gameobject.cpp.o
 
 .PHONY : gameobject.o
@@ -255,33 +285,6 @@ gameobject.cpp.s:
 	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/gameobject.cpp.s
 	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/gameobject.cpp.s
 .PHONY : gameobject.cpp.s
-
-gameobject_test.o: gameobject_test.cpp.o
-
-.PHONY : gameobject_test.o
-
-# target to build an object file
-gameobject_test.cpp.o:
-	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/gameobject_test.cpp.o
-.PHONY : gameobject_test.cpp.o
-
-gameobject_test.i: gameobject_test.cpp.i
-
-.PHONY : gameobject_test.i
-
-# target to preprocess a source file
-gameobject_test.cpp.i:
-	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/gameobject_test.cpp.i
-.PHONY : gameobject_test.cpp.i
-
-gameobject_test.s: gameobject_test.cpp.s
-
-.PHONY : gameobject_test.s
-
-# target to generate assembly for a file
-gameobject_test.cpp.s:
-	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/gameobject_test.cpp.s
-.PHONY : gameobject_test.cpp.s
 
 gameobjectfactory.o: gameobjectfactory.cpp.o
 
@@ -370,36 +373,6 @@ map.cpp.s:
 	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/map.cpp.s
 .PHONY : map.cpp.s
 
-maptile.o: maptile.cpp.o
-
-.PHONY : maptile.o
-
-# target to build an object file
-maptile.cpp.o:
-	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/maptile.cpp.o
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/maptile.cpp.o
-.PHONY : maptile.cpp.o
-
-maptile.i: maptile.cpp.i
-
-.PHONY : maptile.i
-
-# target to preprocess a source file
-maptile.cpp.i:
-	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/maptile.cpp.i
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/maptile.cpp.i
-.PHONY : maptile.cpp.i
-
-maptile.s: maptile.cpp.s
-
-.PHONY : maptile.s
-
-# target to generate assembly for a file
-maptile.cpp.s:
-	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/maptile.cpp.s
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/maptile.cpp.s
-.PHONY : maptile.cpp.s
-
 player.o: player.cpp.o
 
 .PHONY : player.o
@@ -460,6 +433,33 @@ racket.cpp.s:
 	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/racket.cpp.s
 .PHONY : racket.cpp.s
 
+tests/gameobject_test.o: tests/gameobject_test.cpp.o
+
+.PHONY : tests/gameobject_test.o
+
+# target to build an object file
+tests/gameobject_test.cpp.o:
+	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o
+.PHONY : tests/gameobject_test.cpp.o
+
+tests/gameobject_test.i: tests/gameobject_test.cpp.i
+
+.PHONY : tests/gameobject_test.i
+
+# target to preprocess a source file
+tests/gameobject_test.cpp.i:
+	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.i
+.PHONY : tests/gameobject_test.cpp.i
+
+tests/gameobject_test.s: tests/gameobject_test.cpp.s
+
+.PHONY : tests/gameobject_test.s
+
+# target to generate assembly for a file
+tests/gameobject_test.cpp.s:
+	$(MAKE) -f CMakeFiles/Pong_test.dir/build.make CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.s
+.PHONY : tests/gameobject_test.cpp.s
+
 texture_manager.o: texture_manager.cpp.o
 
 .PHONY : texture_manager.o
@@ -509,12 +509,12 @@ help:
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"
+	@echo "... gamecount.o"
+	@echo "... gamecount.i"
+	@echo "... gamecount.s"
 	@echo "... gameobject.o"
 	@echo "... gameobject.i"
 	@echo "... gameobject.s"
-	@echo "... gameobject_test.o"
-	@echo "... gameobject_test.i"
-	@echo "... gameobject_test.s"
 	@echo "... gameobjectfactory.o"
 	@echo "... gameobjectfactory.i"
 	@echo "... gameobjectfactory.s"
@@ -524,15 +524,15 @@ help:
 	@echo "... map.o"
 	@echo "... map.i"
 	@echo "... map.s"
-	@echo "... maptile.o"
-	@echo "... maptile.i"
-	@echo "... maptile.s"
 	@echo "... player.o"
 	@echo "... player.i"
 	@echo "... player.s"
 	@echo "... racket.o"
 	@echo "... racket.i"
 	@echo "... racket.s"
+	@echo "... tests/gameobject_test.o"
+	@echo "... tests/gameobject_test.i"
+	@echo "... tests/gameobject_test.s"
 	@echo "... texture_manager.o"
 	@echo "... texture_manager.i"
 	@echo "... texture_manager.s"

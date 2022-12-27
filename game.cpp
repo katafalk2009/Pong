@@ -1,18 +1,22 @@
 #include "game.h"
 #include "texture_manager.h"
 
+GameCount* Game::player_count = nullptr;
+GameCount* Game::enemy_count = nullptr;
+
 Game::Game() {
     SDL_Init(0);
-    SDL_CreateWindowAndRenderer(800, 640, 0, &win, &ren);
+    SDL_CreateWindowAndRenderer(SCREEN_WIDTH, SCREEN_HEIGHT, 0, &win, &ren);
     SDL_SetWindowTitle(win, "Pong");
     running = true;
     frameStart = SDL_GetTicks();
     map = new Map(ren);
     factory = new GameObjectFactory;
-    createMap();
-    auto player = factory->create("player", ren, 100, 100);
-    auto ball = factory->create("ball", ren, 150, 100);
-    auto enemy = factory->create("enemy", ren, 600, 100);
+    player = factory->create("player", ren, PLAYER_START_X, PLAYER_START_Y);
+    ball = factory->create("ball", ren, BALL_START_X, BALL_START_Y);
+    enemy = factory->create("enemy", ren, SCREEN_WIDTH - PLAYER_START_X, PLAYER_START_Y);
+    player_count = new GameCount(ren, PLAYER_COUNT_X, PLAYER_COUNT_Y);
+    enemy_count = new GameCount(ren, ENEMY_COUNT_X, ENEMY_COUNT_Y);
     entities.push_back(player);
     entities.push_back(ball);
     entities.push_back(enemy);
@@ -25,9 +29,9 @@ Game::~Game(){
 }
 void Game::loop() {
     while (running) {
-    render();
     input();
     update(entities);
+    render();
     SDL_Delay(1000/60);
     // TODO: refactor fps delay
     // frameTime = SDL_GetTicks() - frameStart;
@@ -40,9 +44,12 @@ void Game::loop() {
 void Game::render() {
     SDL_RenderClear(ren);
     map->drawmap();
+    player_count->render();
+    enemy_count->render();
     for (auto entity: entities) {
         entity->render();
     }
+
     SDL_RenderPresent(ren);
 }
 void Game::update(std::vector<GameObject*> entities) {
@@ -52,17 +59,32 @@ for (auto entity: entities) {
 }
 void Game::input() {
     SDL_Event event;
-    SDL_PollEvent(&event);
-    switch (event.type) {
-        case SDL_QUIT:
+    while (SDL_PollEvent(&event)) {
+        if (event.type == SDL_QUIT) {
             running = false;
-            break;
-        default:
-            break;
+        }
+        if (event.type == SDL_KEYDOWN and event.key.keysym.sym == SDLK_ESCAPE) {
+            running = false;
+            }
+        if (event.type == SDL_KEYDOWN and
+         (event.key.keysym.sym == SDLK_w || event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_a || event.key.keysym.sym == SDLK_LEFT)) {
+            player->up = true;
+            }
+        if (event.type == SDL_KEYDOWN and
+         (event.key.keysym.sym == SDLK_s || event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_d || event.key.keysym.sym == SDLK_RIGHT)) {
+            player->down = true;
+            }
+        if (event.type == SDL_KEYUP and
+        (event.key.keysym.sym == SDLK_w || event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_a || event.key.keysym.sym == SDLK_LEFT)) {
+            player->up = false;
+            }
+        if (event.type == SDL_KEYUP and
+         (event.key.keysym.sym == SDLK_s || event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_d || event.key.keysym.sym == SDLK_RIGHT)) {
+            player->down = false;
+            }
+        if (event.type == SDL_KEYDOWN and (event.key.keysym.sym == SDLK_SPACE )) {
+            ball->start();
+            }
+        }
+        
     }
-}
-void Game::createMap() {
-    for (auto tile: map->tiles) {
-        entities.push_back(factory->create("maptile", ren, tile.x, tile.y));
-    }
-}

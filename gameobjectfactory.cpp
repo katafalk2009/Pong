@@ -10,9 +10,6 @@ GameObject* GameObjectFactory::create(std::string asset, SDL_Renderer* ren, int 
       else if (asset == "enemy") {
             return new Enemy(ren, x, y);
       }
-      else if (asset == "maptile") {
-            return new MapTile(ren, x, y);
-      }
       else {
             return nullptr;
       }

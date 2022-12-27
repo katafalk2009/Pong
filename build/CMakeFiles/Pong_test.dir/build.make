@@ -135,22 +135,9 @@ CMakeFiles/Pong_test.dir/map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong_test.dir/map.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/map.cpp -o CMakeFiles/Pong_test.dir/map.cpp.s
 
-CMakeFiles/Pong_test.dir/maptile.cpp.o: CMakeFiles/Pong_test.dir/flags.make
-CMakeFiles/Pong_test.dir/maptile.cpp.o: ../maptile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pong_test.dir/maptile.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong_test.dir/maptile.cpp.o -c /home/akulia/Pong/maptile.cpp
-
-CMakeFiles/Pong_test.dir/maptile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong_test.dir/maptile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akulia/Pong/maptile.cpp > CMakeFiles/Pong_test.dir/maptile.cpp.i
-
-CMakeFiles/Pong_test.dir/maptile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong_test.dir/maptile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/maptile.cpp -o CMakeFiles/Pong_test.dir/maptile.cpp.s
-
 CMakeFiles/Pong_test.dir/player.cpp.o: CMakeFiles/Pong_test.dir/flags.make
 CMakeFiles/Pong_test.dir/player.cpp.o: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pong_test.dir/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pong_test.dir/player.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong_test.dir/player.cpp.o -c /home/akulia/Pong/player.cpp
 
 CMakeFiles/Pong_test.dir/player.cpp.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/Pong_test.dir/player.cpp.s: cmake_force
 
 CMakeFiles/Pong_test.dir/racket.cpp.o: CMakeFiles/Pong_test.dir/flags.make
 CMakeFiles/Pong_test.dir/racket.cpp.o: ../racket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pong_test.dir/racket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pong_test.dir/racket.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong_test.dir/racket.cpp.o -c /home/akulia/Pong/racket.cpp
 
 CMakeFiles/Pong_test.dir/racket.cpp.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/Pong_test.dir/racket.cpp.s: cmake_force
 
 CMakeFiles/Pong_test.dir/texture_manager.cpp.o: CMakeFiles/Pong_test.dir/flags.make
 CMakeFiles/Pong_test.dir/texture_manager.cpp.o: ../texture_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pong_test.dir/texture_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pong_test.dir/texture_manager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong_test.dir/texture_manager.cpp.o -c /home/akulia/Pong/texture_manager.cpp
 
 CMakeFiles/Pong_test.dir/texture_manager.cpp.i: cmake_force
@@ -187,18 +174,31 @@ CMakeFiles/Pong_test.dir/texture_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong_test.dir/texture_manager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/texture_manager.cpp -o CMakeFiles/Pong_test.dir/texture_manager.cpp.s
 
-CMakeFiles/Pong_test.dir/gameobject_test.cpp.o: CMakeFiles/Pong_test.dir/flags.make
-CMakeFiles/Pong_test.dir/gameobject_test.cpp.o: ../gameobject_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pong_test.dir/gameobject_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong_test.dir/gameobject_test.cpp.o -c /home/akulia/Pong/gameobject_test.cpp
+CMakeFiles/Pong_test.dir/gamecount.cpp.o: CMakeFiles/Pong_test.dir/flags.make
+CMakeFiles/Pong_test.dir/gamecount.cpp.o: ../gamecount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pong_test.dir/gamecount.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong_test.dir/gamecount.cpp.o -c /home/akulia/Pong/gamecount.cpp
 
-CMakeFiles/Pong_test.dir/gameobject_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong_test.dir/gameobject_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akulia/Pong/gameobject_test.cpp > CMakeFiles/Pong_test.dir/gameobject_test.cpp.i
+CMakeFiles/Pong_test.dir/gamecount.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong_test.dir/gamecount.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akulia/Pong/gamecount.cpp > CMakeFiles/Pong_test.dir/gamecount.cpp.i
 
-CMakeFiles/Pong_test.dir/gameobject_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong_test.dir/gameobject_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/gameobject_test.cpp -o CMakeFiles/Pong_test.dir/gameobject_test.cpp.s
+CMakeFiles/Pong_test.dir/gamecount.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong_test.dir/gamecount.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/gamecount.cpp -o CMakeFiles/Pong_test.dir/gamecount.cpp.s
+
+CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o: CMakeFiles/Pong_test.dir/flags.make
+CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o: ../tests/gameobject_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o -c /home/akulia/Pong/tests/gameobject_test.cpp
+
+CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akulia/Pong/tests/gameobject_test.cpp > CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.i
+
+CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/tests/gameobject_test.cpp -o CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.s
 
 # Object files for target Pong_test
 Pong_test_OBJECTS = \
@@ -208,11 +208,11 @@ Pong_test_OBJECTS = \
 "CMakeFiles/Pong_test.dir/gameobject.cpp.o" \
 "CMakeFiles/Pong_test.dir/gameobjectfactory.cpp.o" \
 "CMakeFiles/Pong_test.dir/map.cpp.o" \
-"CMakeFiles/Pong_test.dir/maptile.cpp.o" \
 "CMakeFiles/Pong_test.dir/player.cpp.o" \
 "CMakeFiles/Pong_test.dir/racket.cpp.o" \
 "CMakeFiles/Pong_test.dir/texture_manager.cpp.o" \
-"CMakeFiles/Pong_test.dir/gameobject_test.cpp.o"
+"CMakeFiles/Pong_test.dir/gamecount.cpp.o" \
+"CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o"
 
 # External object files for target Pong_test
 Pong_test_EXTERNAL_OBJECTS =
@@ -223,11 +223,11 @@ bin/Pong_test: CMakeFiles/Pong_test.dir/game.cpp.o
 bin/Pong_test: CMakeFiles/Pong_test.dir/gameobject.cpp.o
 bin/Pong_test: CMakeFiles/Pong_test.dir/gameobjectfactory.cpp.o
 bin/Pong_test: CMakeFiles/Pong_test.dir/map.cpp.o
-bin/Pong_test: CMakeFiles/Pong_test.dir/maptile.cpp.o
 bin/Pong_test: CMakeFiles/Pong_test.dir/player.cpp.o
 bin/Pong_test: CMakeFiles/Pong_test.dir/racket.cpp.o
 bin/Pong_test: CMakeFiles/Pong_test.dir/texture_manager.cpp.o
-bin/Pong_test: CMakeFiles/Pong_test.dir/gameobject_test.cpp.o
+bin/Pong_test: CMakeFiles/Pong_test.dir/gamecount.cpp.o
+bin/Pong_test: CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o
 bin/Pong_test: CMakeFiles/Pong_test.dir/build.make
 bin/Pong_test: CMakeFiles/Pong_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable bin/Pong_test"

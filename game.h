@@ -4,6 +4,20 @@
 #include "gameobjectfactory.h"
 #include <vector>
 #include "map.h"
+#include "gamecount.h"
+#include "racket.h"
+
+static const int SCREEN_WIDTH = 800;
+static const int SCREEN_HEIGHT = 640;
+static const int PLAYER_START_X = 100;
+static const int PLAYER_START_Y = 100;
+static const int BALL_START_X = PLAYER_START_X + RACKET_WIDTH;
+static const int BALL_START_Y = PLAYER_START_Y + RACKET_HEIGHT / 2;
+static const int PLAYER_COUNT_X = 50;
+static const int PLAYER_COUNT_Y = 50;
+static const int ENEMY_COUNT_X = 600;
+static const int ENEMY_COUNT_Y = 50;
+
 
 class Game {
 public:
@@ -13,7 +27,11 @@ public:
     void update(std::vector<GameObject*> entities);
     void input();
     void render();
-    void createMap();
+    GameObject* player;
+    GameObject* ball;
+    GameObject* enemy;
+    static GameCount* player_count;
+    static GameCount* enemy_count;
 private:
     SDL_Renderer* ren;
     SDL_Window* win;

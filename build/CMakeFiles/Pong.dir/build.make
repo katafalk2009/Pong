@@ -148,22 +148,9 @@ CMakeFiles/Pong.dir/map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/map.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/map.cpp -o CMakeFiles/Pong.dir/map.cpp.s
 
-CMakeFiles/Pong.dir/maptile.cpp.o: CMakeFiles/Pong.dir/flags.make
-CMakeFiles/Pong.dir/maptile.cpp.o: ../maptile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pong.dir/maptile.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong.dir/maptile.cpp.o -c /home/akulia/Pong/maptile.cpp
-
-CMakeFiles/Pong.dir/maptile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/maptile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akulia/Pong/maptile.cpp > CMakeFiles/Pong.dir/maptile.cpp.i
-
-CMakeFiles/Pong.dir/maptile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/maptile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/maptile.cpp -o CMakeFiles/Pong.dir/maptile.cpp.s
-
 CMakeFiles/Pong.dir/player.cpp.o: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/player.cpp.o: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pong.dir/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pong.dir/player.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong.dir/player.cpp.o -c /home/akulia/Pong/player.cpp
 
 CMakeFiles/Pong.dir/player.cpp.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/Pong.dir/player.cpp.s: cmake_force
 
 CMakeFiles/Pong.dir/racket.cpp.o: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/racket.cpp.o: ../racket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pong.dir/racket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pong.dir/racket.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong.dir/racket.cpp.o -c /home/akulia/Pong/racket.cpp
 
 CMakeFiles/Pong.dir/racket.cpp.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/Pong.dir/racket.cpp.s: cmake_force
 
 CMakeFiles/Pong.dir/texture_manager.cpp.o: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../texture_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pong.dir/texture_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pong.dir/texture_manager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong.dir/texture_manager.cpp.o -c /home/akulia/Pong/texture_manager.cpp
 
 CMakeFiles/Pong.dir/texture_manager.cpp.i: cmake_force
@@ -200,6 +187,19 @@ CMakeFiles/Pong.dir/texture_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/texture_manager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/texture_manager.cpp -o CMakeFiles/Pong.dir/texture_manager.cpp.s
 
+CMakeFiles/Pong.dir/gamecount.cpp.o: CMakeFiles/Pong.dir/flags.make
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../gamecount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pong.dir/gamecount.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong.dir/gamecount.cpp.o -c /home/akulia/Pong/gamecount.cpp
+
+CMakeFiles/Pong.dir/gamecount.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/gamecount.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akulia/Pong/gamecount.cpp > CMakeFiles/Pong.dir/gamecount.cpp.i
+
+CMakeFiles/Pong.dir/gamecount.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/gamecount.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akulia/Pong/gamecount.cpp -o CMakeFiles/Pong.dir/gamecount.cpp.s
+
 # Object files for target Pong
 Pong_OBJECTS = \
 "CMakeFiles/Pong.dir/main.cpp.o" \
@@ -209,10 +209,10 @@ Pong_OBJECTS = \
 "CMakeFiles/Pong.dir/gameobject.cpp.o" \
 "CMakeFiles/Pong.dir/gameobjectfactory.cpp.o" \
 "CMakeFiles/Pong.dir/map.cpp.o" \
-"CMakeFiles/Pong.dir/maptile.cpp.o" \
 "CMakeFiles/Pong.dir/player.cpp.o" \
 "CMakeFiles/Pong.dir/racket.cpp.o" \
-"CMakeFiles/Pong.dir/texture_manager.cpp.o"
+"CMakeFiles/Pong.dir/texture_manager.cpp.o" \
+"CMakeFiles/Pong.dir/gamecount.cpp.o"
 
 # External object files for target Pong
 Pong_EXTERNAL_OBJECTS =
@@ -224,10 +224,10 @@ bin/Pong: CMakeFiles/Pong.dir/game.cpp.o
 bin/Pong: CMakeFiles/Pong.dir/gameobject.cpp.o
 bin/Pong: CMakeFiles/Pong.dir/gameobjectfactory.cpp.o
 bin/Pong: CMakeFiles/Pong.dir/map.cpp.o
-bin/Pong: CMakeFiles/Pong.dir/maptile.cpp.o
 bin/Pong: CMakeFiles/Pong.dir/player.cpp.o
 bin/Pong: CMakeFiles/Pong.dir/racket.cpp.o
 bin/Pong: CMakeFiles/Pong.dir/texture_manager.cpp.o
+bin/Pong: CMakeFiles/Pong.dir/gamecount.cpp.o
 bin/Pong: CMakeFiles/Pong.dir/build.make
 bin/Pong: CMakeFiles/Pong.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akulia/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable bin/Pong"

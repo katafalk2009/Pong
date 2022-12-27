@@ -3,7 +3,6 @@
 #include "ball.h"
 #include "enemy.h"
 #include "player.h"
-#include "maptile.h"
 #include <string>
 
 class GameObjectFactory {

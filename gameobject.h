@@ -12,6 +12,13 @@ class GameObject {
         void render();
         bool collide(GameObject* obj);
         SDL_Texture* obj_texture;
+        int get_xpos();        
+        int get_ypos();
+        float get_xvel();        
+        float get_yvel();
+        int get_speed();
+        virtual void start() {}
+        bool up, down, left, right;
     protected:
         int xpos;
         int ypos;
@@ -22,7 +29,9 @@ class GameObject {
         SDL_Renderer* renderer;
 
         int speed = 1;
-        int xvel = 0;
-        int yvel = 0;
+        float xvel = 0;
+        float yvel = 0;
+
+        bool on_start;
 
 };

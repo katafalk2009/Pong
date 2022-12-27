@@ -3,6 +3,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <string>
+static const int TILE_WIDTH = 32;
 
 struct Tile {
     std::string asset;
@@ -18,7 +19,6 @@ public:
 
     void loadmap(std::vector<std::vector<int>> lvl_map);
     void drawmap();
-    void loadTiles();
     std::vector<Tile> tiles;
 private:
     SDL_Rect src, dest;

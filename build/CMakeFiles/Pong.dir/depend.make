@@ -3,8 +3,16 @@
 
 CMakeFiles/Pong.dir/ball.cpp.o: ../ball.cpp
 CMakeFiles/Pong.dir/ball.cpp.o: ../ball.h
+CMakeFiles/Pong.dir/ball.cpp.o: ../enemy.h
+CMakeFiles/Pong.dir/ball.cpp.o: ../game.h
+CMakeFiles/Pong.dir/ball.cpp.o: ../gamecount.h
 CMakeFiles/Pong.dir/ball.cpp.o: ../gameobject.h
+CMakeFiles/Pong.dir/ball.cpp.o: ../gameobjectfactory.h
+CMakeFiles/Pong.dir/ball.cpp.o: ../map.h
+CMakeFiles/Pong.dir/ball.cpp.o: ../player.h
+CMakeFiles/Pong.dir/ball.cpp.o: ../racket.h
 
+CMakeFiles/Pong.dir/enemy.cpp.o: ../ball.h
 CMakeFiles/Pong.dir/enemy.cpp.o: ../enemy.cpp
 CMakeFiles/Pong.dir/enemy.cpp.o: ../enemy.h
 CMakeFiles/Pong.dir/enemy.cpp.o: ../gameobject.h
@@ -14,22 +22,34 @@ CMakeFiles/Pong.dir/game.cpp.o: ../ball.h
 CMakeFiles/Pong.dir/game.cpp.o: ../enemy.h
 CMakeFiles/Pong.dir/game.cpp.o: ../game.cpp
 CMakeFiles/Pong.dir/game.cpp.o: ../game.h
+CMakeFiles/Pong.dir/game.cpp.o: ../gamecount.h
 CMakeFiles/Pong.dir/game.cpp.o: ../gameobject.h
 CMakeFiles/Pong.dir/game.cpp.o: ../gameobjectfactory.h
 CMakeFiles/Pong.dir/game.cpp.o: ../map.h
-CMakeFiles/Pong.dir/game.cpp.o: ../maptile.h
 CMakeFiles/Pong.dir/game.cpp.o: ../player.h
 CMakeFiles/Pong.dir/game.cpp.o: ../racket.h
 CMakeFiles/Pong.dir/game.cpp.o: ../texture_manager.h
 
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../ball.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../enemy.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../game.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../gamecount.cpp
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../gamecount.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../gameobject.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../gameobjectfactory.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../map.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../player.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../racket.h
+CMakeFiles/Pong.dir/gamecount.cpp.o: ../texture_manager.h
+
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../ball.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../enemy.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../game.h
+CMakeFiles/Pong.dir/gameobject.cpp.o: ../gamecount.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../gameobject.cpp
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../gameobject.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../gameobjectfactory.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../map.h
-CMakeFiles/Pong.dir/gameobject.cpp.o: ../maptile.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../player.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../racket.h
 CMakeFiles/Pong.dir/gameobject.cpp.o: ../texture_manager.h
@@ -39,53 +59,55 @@ CMakeFiles/Pong.dir/gameobjectfactory.cpp.o: ../enemy.h
 CMakeFiles/Pong.dir/gameobjectfactory.cpp.o: ../gameobject.h
 CMakeFiles/Pong.dir/gameobjectfactory.cpp.o: ../gameobjectfactory.cpp
 CMakeFiles/Pong.dir/gameobjectfactory.cpp.o: ../gameobjectfactory.h
-CMakeFiles/Pong.dir/gameobjectfactory.cpp.o: ../maptile.h
 CMakeFiles/Pong.dir/gameobjectfactory.cpp.o: ../player.h
 CMakeFiles/Pong.dir/gameobjectfactory.cpp.o: ../racket.h
 
 CMakeFiles/Pong.dir/main.cpp.o: ../ball.h
 CMakeFiles/Pong.dir/main.cpp.o: ../enemy.h
 CMakeFiles/Pong.dir/main.cpp.o: ../game.h
+CMakeFiles/Pong.dir/main.cpp.o: ../gamecount.h
 CMakeFiles/Pong.dir/main.cpp.o: ../gameobject.h
 CMakeFiles/Pong.dir/main.cpp.o: ../gameobjectfactory.h
 CMakeFiles/Pong.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Pong.dir/main.cpp.o: ../map.h
-CMakeFiles/Pong.dir/main.cpp.o: ../maptile.h
 CMakeFiles/Pong.dir/main.cpp.o: ../player.h
 CMakeFiles/Pong.dir/main.cpp.o: ../racket.h
 
 CMakeFiles/Pong.dir/map.cpp.o: ../ball.h
 CMakeFiles/Pong.dir/map.cpp.o: ../enemy.h
 CMakeFiles/Pong.dir/map.cpp.o: ../game.h
+CMakeFiles/Pong.dir/map.cpp.o: ../gamecount.h
 CMakeFiles/Pong.dir/map.cpp.o: ../gameobject.h
 CMakeFiles/Pong.dir/map.cpp.o: ../gameobjectfactory.h
 CMakeFiles/Pong.dir/map.cpp.o: ../map.cpp
 CMakeFiles/Pong.dir/map.cpp.o: ../map.h
-CMakeFiles/Pong.dir/map.cpp.o: ../maptile.h
 CMakeFiles/Pong.dir/map.cpp.o: ../player.h
 CMakeFiles/Pong.dir/map.cpp.o: ../racket.h
 CMakeFiles/Pong.dir/map.cpp.o: ../texture_manager.h
-
-CMakeFiles/Pong.dir/maptile.cpp.o: ../gameobject.h
-CMakeFiles/Pong.dir/maptile.cpp.o: ../maptile.cpp
-CMakeFiles/Pong.dir/maptile.cpp.o: ../maptile.h
 
 CMakeFiles/Pong.dir/player.cpp.o: ../gameobject.h
 CMakeFiles/Pong.dir/player.cpp.o: ../player.cpp
 CMakeFiles/Pong.dir/player.cpp.o: ../player.h
 CMakeFiles/Pong.dir/player.cpp.o: ../racket.h
 
+CMakeFiles/Pong.dir/racket.cpp.o: ../ball.h
+CMakeFiles/Pong.dir/racket.cpp.o: ../enemy.h
+CMakeFiles/Pong.dir/racket.cpp.o: ../game.h
+CMakeFiles/Pong.dir/racket.cpp.o: ../gamecount.h
 CMakeFiles/Pong.dir/racket.cpp.o: ../gameobject.h
+CMakeFiles/Pong.dir/racket.cpp.o: ../gameobjectfactory.h
+CMakeFiles/Pong.dir/racket.cpp.o: ../map.h
+CMakeFiles/Pong.dir/racket.cpp.o: ../player.h
 CMakeFiles/Pong.dir/racket.cpp.o: ../racket.cpp
 CMakeFiles/Pong.dir/racket.cpp.o: ../racket.h
 
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../ball.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../enemy.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../game.h
+CMakeFiles/Pong.dir/texture_manager.cpp.o: ../gamecount.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../gameobject.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../gameobjectfactory.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../map.h
-CMakeFiles/Pong.dir/texture_manager.cpp.o: ../maptile.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../player.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../racket.h
 CMakeFiles/Pong.dir/texture_manager.cpp.o: ../texture_manager.cpp

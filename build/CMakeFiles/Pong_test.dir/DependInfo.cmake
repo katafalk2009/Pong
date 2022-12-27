@@ -7,13 +7,13 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/akulia/Pong/ball.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/ball.cpp.o"
   "/home/akulia/Pong/enemy.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/enemy.cpp.o"
   "/home/akulia/Pong/game.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/game.cpp.o"
+  "/home/akulia/Pong/gamecount.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/gamecount.cpp.o"
   "/home/akulia/Pong/gameobject.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/gameobject.cpp.o"
-  "/home/akulia/Pong/gameobject_test.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/gameobject_test.cpp.o"
   "/home/akulia/Pong/gameobjectfactory.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/gameobjectfactory.cpp.o"
   "/home/akulia/Pong/map.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/map.cpp.o"
-  "/home/akulia/Pong/maptile.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/maptile.cpp.o"
   "/home/akulia/Pong/player.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/player.cpp.o"
   "/home/akulia/Pong/racket.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/racket.cpp.o"
+  "/home/akulia/Pong/tests/gameobject_test.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/tests/gameobject_test.cpp.o"
   "/home/akulia/Pong/texture_manager.cpp" "/home/akulia/Pong/build/CMakeFiles/Pong_test.dir/texture_manager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
