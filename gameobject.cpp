@@ -6,11 +6,12 @@ GameObject::GameObject(const char* texture, SDL_Renderer* ren, int x, int y): xp
     obj_texture = TextureManager::loadTexture(texture, renderer);
     src_rect.x = 0;
     src_rect.y = 0;
-    src_rect.h = dest_rect.h = 32;
-    src_rect.w = dest_rect.w = 32;
+    src_rect.h = dest_rect.h = TILE_WIDTH;
+    src_rect.w = dest_rect.w = TILE_WIDTH;
     dest_rect.x = xpos;
     dest_rect.y = ypos;
-    up = down = left = right = false;
+    xvel = 0;
+    yvel = 0;
 }
 
 void GameObject::update(std::vector<GameObject*> entities) {

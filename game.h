@@ -6,6 +6,7 @@
 #include "map.h"
 #include "gamecount.h"
 #include "racket.h"
+#include <memory>
 
 static const int SCREEN_WIDTH = 800;
 static const int SCREEN_HEIGHT = 640;
@@ -27,9 +28,11 @@ public:
     void update(std::vector<GameObject*> entities);
     void input();
     void render();
-    GameObject* player;
-    GameObject* ball;
-    GameObject* enemy;
+    GameObject* player_;
+    GameObject* ball_;
+    GameObject* enemy_;
+    Ball* ball;
+    Player* player;
     static GameCount* player_count;
     static GameCount* enemy_count;
 private:
@@ -37,9 +40,7 @@ private:
     SDL_Window* win;
     bool running;
     const int FPS = 60;
-    const int frameDelay = 1000 / FPS;
-    Uint32 frameStart;
-    int frameTime;
+    const int frame_delay = 1000 / FPS;
     GameObjectFactory* factory;
     Map* map;
     std::vector<GameObject*> entities;

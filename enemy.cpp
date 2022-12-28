@@ -2,7 +2,7 @@
 #include "ball.h"
 
 Enemy::Enemy(SDL_Renderer* ren, int x, int y): Racket(ren, x, y) {
-    speed = 5;
+    speed = ENEMY_SPEED;
 }
 
 void Enemy::update(std::vector<GameObject*> entities) {

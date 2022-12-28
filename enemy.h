@@ -1,7 +1,7 @@
 #pragma once
 #include "racket.h"
 
-static const int ENEMY_MAX_VELOCITY = 5;
+static const int ENEMY_SPEED = 5;
 
 class Enemy: public Racket {
 public:

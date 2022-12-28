@@ -6,15 +6,41 @@
 
 #IncludeRegexTransform: 
 
+/home/akulia/Pong/ball.cpp
+ball.h
+/home/akulia/Pong/ball.h
+player.h
+/home/akulia/Pong/player.h
+game.h
+/home/akulia/Pong/game.h
+cmath
+-
+math.h
+-
+map.h
+/home/akulia/Pong/map.h
+
 /home/akulia/Pong/ball.h
 gameobject.h
 /home/akulia/Pong/gameobject.h
 vector
 -
 
+/home/akulia/Pong/enemy.cpp
+enemy.h
+/home/akulia/Pong/enemy.h
+ball.h
+/home/akulia/Pong/ball.h
+
 /home/akulia/Pong/enemy.h
 racket.h
 /home/akulia/Pong/racket.h
+
+/home/akulia/Pong/game.cpp
+game.h
+/home/akulia/Pong/game.h
+texture_manager.h
+/home/akulia/Pong/texture_manager.h
 
 /home/akulia/Pong/game.h
 SDL2/SDL.h
@@ -31,6 +57,14 @@ gamecount.h
 /home/akulia/Pong/gamecount.h
 racket.h
 /home/akulia/Pong/racket.h
+memory
+-
+
+/home/akulia/Pong/gamecount.cpp
+gamecount.h
+/home/akulia/Pong/gamecount.h
+texture_manager.h
+/home/akulia/Pong/texture_manager.h
 
 /home/akulia/Pong/gamecount.h
 SDL2/SDL.h
@@ -43,8 +77,6 @@ gameobject.h
 /home/akulia/Pong/gameobject.h
 texture_manager.h
 /home/akulia/Pong/texture_manager.h
-iostream
--
 
 /home/akulia/Pong/gameobject.h
 SDL2/SDL.h
@@ -53,6 +85,10 @@ SDL2/SDL_image.h
 -
 vector
 -
+
+/home/akulia/Pong/gameobjectfactory.cpp
+gameobjectfactory.h
+/home/akulia/Pong/gameobjectfactory.h
 
 /home/akulia/Pong/gameobjectfactory.h
 gameobject.h
@@ -66,6 +102,20 @@ player.h
 string
 -
 
+/home/akulia/Pong/main.cpp
+game.h
+/home/akulia/Pong/game.h
+memory
+-
+
+/home/akulia/Pong/map.cpp
+map.h
+/home/akulia/Pong/map.h
+texture_manager.h
+/home/akulia/Pong/texture_manager.h
+gameobjectfactory.h
+/home/akulia/Pong/gameobjectfactory.h
+
 /home/akulia/Pong/map.h
 vector
 -
@@ -76,13 +126,31 @@ SDL2/SDL_image.h
 string
 -
 
+/home/akulia/Pong/player.cpp
+player.h
+/home/akulia/Pong/player.h
+
 /home/akulia/Pong/player.h
 racket.h
 /home/akulia/Pong/racket.h
 
+/home/akulia/Pong/racket.cpp
+racket.h
+/home/akulia/Pong/racket.h
+game.h
+/home/akulia/Pong/game.h
+
 /home/akulia/Pong/racket.h
 gameobject.h
 /home/akulia/Pong/gameobject.h
+
+/home/akulia/Pong/texture_manager.cpp
+SDL2/SDL_ttf.h
+-
+texture_manager.h
+/home/akulia/Pong/texture_manager.h
+string
+-
 
 /home/akulia/Pong/texture_manager.h
 game.h

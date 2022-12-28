@@ -28,7 +28,6 @@ std::vector<std::vector<int>> lvl1 = {
 
 
 Map::Map(SDL_Renderer* ren): renderer(ren) {
-    //dirt = TextureManager::loadTexture("assets/dirt.png", ren);
     grass = TextureManager::loadTexture("assets/grass.png", ren);
     water = TextureManager::loadTexture("assets/water.png", ren);
     loadmap(lvl1);
@@ -44,7 +43,6 @@ void Map::loadmap(std::vector<std::vector<int>> lvl_map) {
             map[row][column] = lvl_map[row][column];
         }
     }
-
 }
 
 void Map::drawmap() {
@@ -59,7 +57,6 @@ void Map::drawmap() {
             else if (type == 2) {
                 TextureManager::draw(renderer, water, src, dest);
                 }
-
             }
         }
     }

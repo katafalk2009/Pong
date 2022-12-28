@@ -17,21 +17,16 @@ class GameObject {
         float get_xvel();        
         float get_yvel();
         int get_speed();
-        virtual void start() {}
-        bool up, down, left, right;
+
     protected:
         int xpos;
         int ypos;
-
 
         SDL_Rect src_rect;
         SDL_Rect dest_rect;
         SDL_Renderer* renderer;
 
-        int speed = 1;
-        float xvel = 0;
-        float yvel = 0;
-
-        bool on_start;
-
+        int speed;
+        float xvel;
+        float yvel;
 };

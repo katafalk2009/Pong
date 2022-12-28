@@ -9,20 +9,28 @@ Game::Game() {
     SDL_CreateWindowAndRenderer(SCREEN_WIDTH, SCREEN_HEIGHT, 0, &win, &ren);
     SDL_SetWindowTitle(win, "Pong");
     running = true;
-    frameStart = SDL_GetTicks();
     map = new Map(ren);
     factory = new GameObjectFactory;
-    player = factory->create("player", ren, PLAYER_START_X, PLAYER_START_Y);
-    ball = factory->create("ball", ren, BALL_START_X, BALL_START_Y);
-    enemy = factory->create("enemy", ren, SCREEN_WIDTH - PLAYER_START_X, PLAYER_START_Y);
+    player_ = factory->create("player", ren, PLAYER_START_X, PLAYER_START_Y);
+    ball_ = factory->create("ball", ren, BALL_START_X, BALL_START_Y);
+    enemy_ = factory->create("enemy", ren, SCREEN_WIDTH - PLAYER_START_X, PLAYER_START_Y);
+    player = dynamic_cast<Player*>(player_);
+    ball = dynamic_cast<Ball*>(ball_);
     player_count = new GameCount(ren, PLAYER_COUNT_X, PLAYER_COUNT_Y);
     enemy_count = new GameCount(ren, ENEMY_COUNT_X, ENEMY_COUNT_Y);
-    entities.push_back(player);
-    entities.push_back(ball);
-    entities.push_back(enemy);
+    entities.push_back(player_);
+    entities.push_back(ball_);
+    entities.push_back(enemy_);
     loop();
 }
 Game::~Game(){
+ for (auto entity: entities) {
+        delete entity;
+    }
+    delete map;
+    delete factory;
+    delete player_count;
+    delete enemy_count;
     SDL_DestroyRenderer(ren);
     SDL_DestroyWindow(win);
     SDL_Quit();
@@ -32,13 +40,7 @@ void Game::loop() {
     input();
     update(entities);
     render();
-    SDL_Delay(1000/60);
-    // TODO: refactor fps delay
-    // frameTime = SDL_GetTicks() - frameStart;
-    // if (frameTime < frameDelay) {
-    // SDL_Delay(frameDelay - frameTime);
-    // frameStart = SDL_GetTicks();
-    // }
+    SDL_Delay(frame_delay);
     }
 }
 void Game::render() {
@@ -49,17 +51,20 @@ void Game::render() {
     for (auto entity: entities) {
         entity->render();
     }
-
     SDL_RenderPresent(ren);
 }
+
 void Game::update(std::vector<GameObject*> entities) {
 for (auto entity: entities) {
         entity->update(entities);
     }
 }
+
 void Game::input() {
     SDL_Event event;
+
     while (SDL_PollEvent(&event)) {
+
         if (event.type == SDL_QUIT) {
             running = false;
         }
@@ -86,5 +91,4 @@ void Game::input() {
             ball->start();
             }
         }
-        
     }

@@ -19,8 +19,6 @@ SDL_Texture* TextureManager::loadMessage(int count, SDL_Renderer* ren) {
     SDL_Surface* surfaceMessage = TTF_RenderText_Solid(sans, std::to_string(count).c_str(), black);
     SDL_Texture* texture = SDL_CreateTextureFromSurface(ren, surfaceMessage);
     SDL_FreeSurface(surfaceMessage);
+    TTF_CloseFont(sans);
     return texture;
 }
-
-
-

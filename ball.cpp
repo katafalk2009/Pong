@@ -9,7 +9,6 @@
 Ball::Ball(SDL_Renderer* ren, int x, int y): GameObject("assets/ball.png", ren, x, y) {
     src_rect.h = dest_rect.h = BALL_SIZE;
     src_rect.w = dest_rect.w = BALL_SIZE;
-    speed = 0;
     on_start = true;
 }
 
@@ -47,8 +46,8 @@ for (auto entity: entities) {
         int intersect_y = ypos;
         float relative_intersect_y = (entity->get_ypos()+(RACKET_HEIGHT/2)) - intersect_y;
 
-        float normalizedRelativeIntersectionY = (relative_intersect_y/(RACKET_HEIGHT/2));
-        float bounce_angle = normalizedRelativeIntersectionY * MAXBOUNCEANGLE;
+        float normalized_relative_intersection_y = (relative_intersect_y/(RACKET_HEIGHT/2));
+        float bounce_angle = normalized_relative_intersection_y * MAXBOUNCEANGLE;
 
 
         xvel = cos(bounce_angle);
@@ -83,18 +82,18 @@ void Ball::start() {
     on_start = false;
     xvel = 1;
     yvel = 0;
-    speed = 5;
+    speed = BALL_START_SPEED;
     }
 }
 
 void Ball::reset(std::vector<GameObject*> entities) {
     on_start = true;
-for (auto entity : entities) {
+    for (auto entity : entities) {
         if (typeid(*entity) == typeid(Player)) {
             xpos = entity->get_xpos() + RACKET_WIDTH;
             ypos = entity->get_ypos() + RACKET_HEIGHT / 2;
         }
-    }    
+    }
     xvel = 0;
     yvel = 0;
 }
